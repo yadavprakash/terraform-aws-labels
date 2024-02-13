@@ -12,3 +12,4 @@ output "name" {
   value       = module.labels.name
   description = "Normalized Tag map."
 }
+
