@@ -8,5 +8,3 @@ module "labels" {
     Application = "Demo"
   }
 }
-
-
