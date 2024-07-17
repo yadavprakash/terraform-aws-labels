@@ -32,3 +32,4 @@ locals {
 
   tags = merge(local.generated_tags, var.extra_tags)
 }
+
