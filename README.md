@@ -23,7 +23,7 @@ To use this module in your Terraform configurations, you can include it as follo
 
 ```hcl
 module "labels" {
-  source      = "git::https://github.com/yadavprakash/terraform-aws-labels.git?ref=v1.0.0"
+  source      = "git::https://github.com/yadavprakash/terraform-aws-labels.git"
   name        = "app"
   environment = "test"
   label_order = ["name", "environment"]
